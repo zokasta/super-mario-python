@@ -1,33 +1,33 @@
-# Super Mario Implementation in Python
+Super Mario Bros Level 1
+=============
 
-This is inspired by Meth-Meth-Method's [super mario game](https://github.com/meth-meth-method/super-mario/)
+An attempt to recreate the first level of Super Mario Bros.
 
-## Running
+![screenshot](https://raw.github.com/justinmeister/Mario-Level-1/master/screenshot.png)
 
-* $ pip install -r requirements.txt
-* $ python main.py
+CONTROLS: 
 
-## Standalone windows build
+Arrow keys for direction
 
-* $ pip install py2exe
-* $ python compile.py py2exe
+'a' for jump
 
-## Controls
+'s' for action (fireball, run)
 
-* Left: Move left  
-* Right: Move right  
-* Space: Jump  
-* Shift: Boost   
-* Left/Right Mouseclick: secret   
 
-## Current state:
-![Alt text](img/pics.png "current state")
+DEPENDENCIES:
 
-## Dependencies	
-* pygame	
-* scipy	
+Pygame 1.9.1 (Python 2)
 
-## Contribution
+Pygame 1.9.2 (Python 3) - a little trickier to get going.
 
-If you have any Improvements/Ideas/Refactors feel free to contact me or make a Pull Request.
-The code needs still alot of refactoring as it is right now, so I appreciate any kind of Contribution.
+To install dependencies for Python 2.x:
+
+	pip install -r requirements.txt
+
+VIDEO DEMO:
+
+http://www.youtube.com/watch?v=HBbzYKMfx5Y
+   
+DISCLAIMER:
+
+This project is intended for non-commercial educational purposes.
